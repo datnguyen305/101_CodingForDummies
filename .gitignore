@@ -21,3 +21,9 @@ rad.json
 #Test results file
 TestResults.xml
 .notebooks/
+#data file
+*.csv
+# Ignore data directories at any depth
+**/data/
+**/dataset/
+**/datasets/
